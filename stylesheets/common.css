@@ -1,0 +1,75 @@
+/* ----------------------------------------------------------------------------
+ * CommonCSS
+ * 
+ * ----------------------------------------------------------------------------
+ */
+ 
+/* 
+ * simple reset 
+ */
+ 
+* { margin:0; padding:0; font-size:100%;}
+ol, li { list-style:none; }
+table { border-collapse:collapse; border-spacing:0; }
+* html .clearfix{ height: 1%; overflow: visible; }                                     /* float clearing for IE6 */
+*+html .clearfix{ min-height: 1%; }                                                    /* float clearing for IE7 */
+.clearfix:after{ clear:both; content:"."; display:block; height:0; visibility:hidden;} /* float clearing for everyone else */
+
+body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+
+
+/* 
+ * simple grid 
+ */
+ 
+.frame { margin: 0; padding: 0; width: 100%; min-width: 980px; display:block; position:relative; }
+.grid  { width: 978px; margin: 0 auto; }
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 { float: left; margin-left: 30px; }
+.col-1  {width: 54px;}
+.col-2  {width: 138px;}
+.col-3  {width: 222px;}
+.col-4  {width: 306px;}
+.col-5  {width: 390px;}
+.col-6  {width: 474px;}
+.col-7  {width: 558px;}
+.col-8  {width: 642px;}
+.col-9  {width: 726px;}
+.col-10 {width: 810px;}
+.col-11 {width: 894px;}
+.col-12 {width: 978px; margin-left:0; clear: left;}
+.first  {margin-left: 0; clear: left; }
+
+img { border:none; }
+a, a:visited, a:active, a:link { color: #0758a8; text-decoration: none; }
+a:hover                        { color: #0758a8; text-decoration: underline;}
+p { margin-bottom: .5em; line-height: 1.5em;}
+
+h1,h2,h3,h4,h5,h6 { color: #111; margin-bottom: 1em; font-weight: bold;}
+h1 { font-size: 24px; }
+h2 { font-size: 18px; }
+h3 { font-size: 16px; }
+h4 { font-size: 14px; margin-bottom: 0.5em;}
+h5 { font-size: 13px; margin-bottom: 0.5em;}
+h6 { font-size: 11px; margin-bottom: 0.5em;}
+
+
+/*
+ * common styles 
+ */
+
+.l    { text-align:left; }
+.r    { text-align:right; }
+.c    { text-align:center; }
+
+.xwk  {}
+.wk   { font-weight:normal; color:#999; }
+.n    { font-weight:normal; }
+.st   { font-weight:bold; color:#333; }
+.xst  { font-weight:bold; color:#000; } 
+
+.s10  { font-size:10px; }
+.s11  { font-size:11px; }
+.s12  { font-size:12px; }
+
+.caps { text-transform:uppercase; letter-spacing:0.5px; }
+

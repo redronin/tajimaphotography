@@ -1,0 +1,45 @@
+
+*  		{	font-family: "Helvetica Neue",Arial,Verdana,sans-serif; }
+html 	{ background: #fff; line-height: 1.5em; margin: 0; padding: 0; }
+body  { padding: 0; margin: 0; line-height: 1.5em;  }
+h1,h2,h3,h4,h5 { font-weight: bold; line-height: 1.7em; color: #666 }
+
+
+h2.cap { color:#999; letter-spacing: .3em; font-weight: normal; font-size: 18px; line-height: 2em; text-transform: lowercase; font-variant: small-caps; }
+h5.cap { color:#999; font-weight: normal; letter-spacing: 0.1em; line-height: 2em; text-transform: uppercase; font-variant: small-caps; }
+h6.cap { color:#999; font-weight: normal; letter-spacing: 0.1em;  line-height: 2em; text-transform: uppercase; font-variant: small-caps; }
+
+a { color: #333; text-decoration: none; }
+a:hover,a:active { color: #000; text-decoration: underline; }
+
+/* frame */
+#header-frame {height: 70px; min-height: 50px;}
+#body-frame {min-height: 600px; height: 670px; }
+#footer-frame {height: 30px; overflow: hidden;}
+
+/* header */
+#header { border-bottom: 1px solid #ddd; height: 60px; }
+
+/* footer */
+#footer  { color: #aaa; text-align: center; border-top: 1px solid #ddd; height: 30px; font-size: 10px;}
+span.copyright { text-transform: uppercase; letter-spacing: 1px; font-size: 9px;}
+span.powered { font-size: 10px; color: #999; }
+
+/* general */
+ul.menu { list-style: none; margin: 0; padding: 0; }
+ul.menu li { padding: 0; display:inline; }
+ul.menu li a { color: #999; font-size: 9px; padding: 1px 5px; margin: 0 5px; font-weight: normal; text-decoration: none; text-transform: uppercase; letter-spacing: 0.3em; border: 1px solid #fff; }
+ul.menu li a:hover { color: #000; xtext-decoration: underline; border: 1px solid #999; }
+
+.alt { 
+  color: #666; 
+  font-family: "Warnock Pro", "Goudy Old Style","Palatino","Book Antiqua", Georgia, serif; 
+  font-style: italic;
+  font-weight: normal;
+}
+
+/* splash page */
+
+#splash { padding: 50px 0; margin: 0 auto;}
+#splash h1 { font-size: 32px;}
+.preview { border: 1px solid #666; margin: 5px;}
